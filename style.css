@@ -1,0 +1,63 @@
+body{color:#000; background:#FFF; 
+   font-family:arial, Arial, Helvetica;
+}
+body.1{color:#000; background:#F6FFF9; 
+   font-family:arial, Arial, Helvetica;
+}
+body.2{color:#000; background:#FDFAF0; 
+   font-family:arial, Arial, Helvetica;
+}
+body.smaller{color:#000; background:#FFF; 
+   font-family:arial, Arial, Helvetica;
+   font-size:90%;
+}
+
+h1{font-size:x-large; font-weight:bolder; color:#033;}
+h2{font-size:x-large; font-weight:bold; color:#036;}
+h3{font-size:large; font-weight:bolder; color:#036;
+   margin-bottom:5px}
+h4{font-size:large; font-weight:bold; color:#044;}
+h5{font-size:medium; font-weight:bolder; color:#000;}
+h6{font-size:medium; font-weight:bold; color:#000;}
+
+b{font-weight:bold; color:#044;}
+b.save{font-size:small; font-weight:200; color:#044;}
+b.sc{font-weight:500; font-variant:small-caps; color:#044;}
+small.light{color:#999}
+
+a{color:#036;}
+a:visited{color:#033;}
+a.subtle{color:#663;}
+a.subtle:visited{color:#663;}
+
+div.boxit{background:#FFF;
+    border-width:2px; border-style:solid; border-color:#000; 
+    margin-left:.5in; margin-right:.5in;
+    padding:10px; 
+}
+div.line{background:#603;
+    margin-left:0in; margin-right:0in;
+    padding:1px; 
+    font-size:25%;
+}
+div.thinline{background:#067;
+    border-width:1px; border-style:solid; border-color:#000; 
+    margin-left:0px; margin-right:0px;
+    padding:3px; 
+    font-size:20%;
+}
+div.shortthinline{background:#066;
+    border-width:0px; border-style:solid; border-color:#000; 
+    margin-left:1in; margin-right:1in;  margin-bottom:10px;
+    padding:2px; 
+    font-size:10%;
+}
+
+ul, li {
+ margin: 0;
+}
+
+h2, h3 {
+ margin: 0;
+ padding: 0;
+}
