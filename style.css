@@ -55,3 +55,24 @@ h2, h3 {
  margin: 0;
  padding: 0;
 }
+
+/* top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #036;
+}
+.topnav a {
+  float: left;
+  color: #FFF;
+  text-align: center;
+  padding: 12px 30px;
+  text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #7195ba;
+    color: #000;
+}
+.topnav a.active {
+    background-color: #041d35;
+    color: #FFF;
+}
