@@ -27,6 +27,11 @@ a:visited{color:#033;}
 a.subtle{color:#663;}
 a.subtle:visited{color:#663;}
 
+div.indentit{background:#FFF;
+    margin-left:.25in; margin-right:.5in;
+    padding:0px; 
+}
+
 div.boxit{background:#FFF;
     border-width:2px; border-style:solid; border-color:#000; 
     margin-left:.5in; margin-right:.5in;
@@ -50,8 +55,24 @@ div.shortthinline{background:#066;
     font-size:10%;
 }
 
-ul, li {
- margin: 0;
+div.textbar{background:#036; color:#FFF;
+  font-style: italic; font-weight:100; font-size:80%;
+  text-align:left;			
+  border-width:1px; border-style:solid; border-color:#036;
+  margin-left:0px; margin-right:0px; margin-top:3px; margin-bottom:3px;
+  padding:2px; padding-right:3px;
+}
+
+
+ul, ol {
+    margin: 0;
+    padding-left:1.2em;
+}
+
+li {
+    margin: 0;
+    /* padding-left:1.2em; */
+    /* list-style-position: inside; */
 }
 
 
@@ -74,6 +95,6 @@ ul, li {
 }
 .topnav a.active {
     /* background-color: #041d35; */
-    background-color: #013;
+    background-color: #131939;
     color: #FFF;
 }
