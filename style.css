@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 b{font-weight:bold; color:#063;}
 b.save{font-size:small; font-weight:200; color:#044;}
 b.sc{font-weight:500; font-variant:small-caps; color:#044;}
-small.light{color:#999}
+.light{color:#999}
 
 a{color:#036;}
 a:visited{color:#033;}
