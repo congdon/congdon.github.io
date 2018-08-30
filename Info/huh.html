@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- Created by: Clare Bates Congdon, July 11, 2018  -->
+<head>
+  <title>Clare Bates Congdon</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+
+<div class="topnav"><small>
+  <a href="../index.html">Home</a>
+  <a href="../cv.html">Brief CV</a>
+  <a href="../projects.html">Projects</a>
+  <a href="../publications.html">Publications</a>
+  <a href="../teaching.html">Teaching</a>
+  <a href="../contact.html">Contact</a>
+</small>
+</div>
+<br>
+
+<h4> Clare's explanations of some of the things she works on</h4>
+<br>
+
+<b>Artificial Intelligence</b>
+<br>
+
+Artificial Intelligence or AI most simply refers to being clever about doing a
+task on a computer when the problem is somehow "too big" to pursue the problem
+via more traditional computational methods. <!--Because AI got a bad rap by not
+delivering on its early promise and because people's visions of AI are skewed
+by things like science fiction movies, the term "Computational Intelligence"
+is coming into use among practictioners.-->
+
+<br><br>
+Typically, an AI problem is "too big" in some or all of the following senses:
+<ol>
+<li> The task is not well enough understood to be solved
+algorithmically (as a series of steps)
+
+<li> There is a vast amount of knowledge required to perform the task and it
+is unknown how to best encode this knowledge into the system
+
+<li> There are an enormous number of possible solutions, too many to evaluate
+them all
+
+<li> We're happy to settle for "the best" solution we can find in a reasonable
+timeframe
+</ol>
+<br>
+
+One way to think about AI tasks is that there are too many options to consider
+them all, so we have to be clever about which possibilities are considered. AI
+systems are typically marked by <i>search</i>, which means considering
+different possible outcomes from different courses of action, and
+<i>heuristics</i>, which are rules of thumb about which options are the most
+promising ones to consider. The different possible search stragies are task
+independent while heuristics are specific to the task at hand.
+
+<!-- A soccer-playing robot is one example, or a driverless vehicle. (But of
+course, these are quite different; a soccer-playing robot might lose the game,
+but an autonomous vehicle might veer off the road.) --> 
+
+<br><br>
+It's a common saw that "once it works, it's no longer AI", meaning that when
+"the best" solution crosses a certain threshold of performance, what was once
+"AI research" becomes mainstream. This is true of voice-recognition software,
+for example ("press or say one" on the phone), and the grammar correction in word
+processors (both of these are flawed, but in many cases, still helpful).
+
+<br><br>
+<b>Machine Learning</b>
+<br>
+
+Machine Learning (ML) refers most generally to computer programs that adapt as
+they run. (The name of the field dates back to Alan Turing, in the days when
+"computers" were people and "computing machines" were the electronic
+counterparts.) Identifying patterns is an essential ability for both human and
+computer learning, as one must be able to recognize "I've seen this before" (or
+"I've seen something like this before") to respond appropriately in the
+present and to anticipate possible outcomes in the future.
+Thus, machine learning also refers to the process of extracting patterns from
+data, such as the specialization called data mining.  
+<br><br>
+
+Some ML systems work by modifying their own code, usually implemented in an
+interpreted language such as LISP that allows the introduction of new
+functions (or redefinition of existing functions), or in a production system
+that allows the introduction of new rules. More commonly, ML systems modify
+data structures to capture the patterns of what is known about the world,
+usually a form of generalizations. Just as with human learning, this process
+is error prone. <!--(For example, when my son was about 2yo, and on the cusp of
+learning color names, he shouted out "lobster!" one day when seeing a stop
+sign.) -->
+
+
+<!--
+Within Machine Learning, one may further subdivide the field into a variety of
+learning approaches, such as genetic algorithms, neural nets, or decision
+trees, or, orthogonally, one may further subdivide into high-level goals, such
+as finding patterns in static data sets (such as "data mining") or improving
+performance on a task (such as "agent-based learning"). -->
+
+
+<br><br>
+<b>Genetic Algorithms / Evolutionary Computation</b>
+<br>
+
+Genetic Algorithms (GA's), also called Evolutionary Computation (EC), is an a
+computational approach in which one evolves a solution to a problem over a
+number of generations. The approach is (obviously) inspired by natural
+evolution and genetics, but primarily at the level of metaphor. Nature is a
+pretty good problem solver.
+<br><br>
+
+To use the GA approach, the set of possible solutions to the task must be
+represented in a relatively simple data structure, such as a string or a tree
+structure, and one must have a means of scoring each potential solution
+created.  
+A GA works with a population of possible solutions to the problem; typically
+these are generated at random to begin. (Of course, these are not presumed to
+be particularly good solutions to the problem, but they serve as a starting
+point.) Each of the solutions in the population is scored and the
+higher-scoring solutions are more likely to be chosen as parents; parents
+produce offspring solution through processes such as recombination and
+mutation. The process repeats until a stopping criteria is reached, such as a
+given number of generations. Over a number of generations, the population
+tends to include better and better solutions to the problem.
+
+<br><br>
+<b>Complex Adaptive Systems</b>
+<br>
+
+Complex Systems is an approach to modelling phenomena as simple interactions
+among simple agents, and yeilding a behavior much more complex than one would
+initially predict by looking at the rules of interaction. The complex behavior
+is said to emerge from the system. For example, bird flocking has been
+successfully modelled with three simple rules for each bird, controlling
+separation, alignment, and cohesion relative to other birds nearby. A typical
+component of a complex systems model is the reliance on local knowledge of the
+individual agents (e.g., a bird) leading to a behavior or effect that is
+interesting on the global level (how the flock behaves).
+<br><br>
+When the behavior of the components of the system changes over time, this is a
+Complex Adaptive System.
+
+
+<br><br>
+<b>Bioinformatics</b>
+<br>
+
+Bioinformatics is most broadly the use of (and development of) computer
+science tools and techniques to acquire, store, organize, archive, analyze and
+visualize biological data. More specifically, the term has come to refer to
+forms of biology that relate to genetics, such as alignments, patterns of
+substitution, phylogenetics, and protein folding. Bioinformatics is a broad
+and interdisciplinary field, encompassing interests and expertise from fields
+such as Biology, Chemistry, Computer Science, and Mathematics/Statistics.
+<br><br>
+Most subfields of computer science have roles in bioinformatics. Because there
+is such a huge amount of data to be stored and processed, two of the most
+obvious CS specialties involved in bioinformatics are data bases (efficient
+storage and retrieval of data) and machine learning (finding patterns in the
+data). Human-computer interaction (HCI) and visualization are also essential.
+
+<br><br>
+<b>Computational Biology</b>
+<br>
+
+While folks differ on what specific terminalogy means, in the circles I run
+in, computational biology is broader than bioinformatics, refering to the full
+spectrum of where computer science and biology intersect. This would include
+modelling an ecosystem, for example, which would not generally be considered
+bioinformatics.  
+
+<br><br>
+<b>Robotics</b>
+<br>
+You know what robotics is, so I don't need to explain it. But let me clarify
+that there are two forms of "robotics". There's the mechanical engineering
+kind, which is concerned with things like sensor and motor design, and the
+artificial intelligence kind, which is concerned with the behavior of the
+robots. Although I sometimes build "hobby" robots, with legos or plywood and
+hobbyshop motors, obviously at the research level, I work in the AI form of
+robotics.
+
+<br><br>
+<b>Interactive Art</b>
+<br>
+
+The notion of interactive art is that the viewer interacts with your piece
+(duh) and that how it responds varies, depending on the viewer's
+actions. (This need not involve computers, but of course, that's the form I
+primarily work with.)
+The input might be normal computer inputs, such as the mouse and the keyboard, or
+a touch screen, or might involve other sensors, such as the light sensors or
+touch sensors used in robotics. 
+The output would generally be a visual display,
+but could be more than a computer monitor; it might involve projectors or
+mechanical devices.
+<br><br>
+Examples of interactive art I've done with students include:
+<ul>
+<li> Jake Hobart's 3D graphics piece, where geometric shapes grew or receded
+  in a virtual world depending on the users interaction with them.
+  </li>
+
+<li> Andrew Merryman's "virtual touch screen", a plexiglass frame with lasers
+  and light sensors in the frame, so that when you place your hand in the
+  frame, the xy coordinates are known; Andrew projected images behind the
+  frame that changed in response to these actions.
+  </li>
+</ul>
+
+<!--A range of examples of interactive art elsewhere can bee seen in the 010101
+exhibit at the San Francisco Museum of Modern Art (which opened, yes, on
+01/01/01). This is online at: <a
+href="http://010101.sfmoma.org">http://010101.sfmoma.org</a> (although the
+online version doesn't do the physical version justice).-->
+
+
+</body>
+</html>
