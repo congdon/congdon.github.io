@@ -1,0 +1,68 @@
+Brainstorming Activity
+Tue Sep 11 12:04:32 2018
+------------------------------------------------------------
+Three postits/person == define a problem / brief description
+  more postits == details
+
+1. on each posting describe a problem  --  5 minutes for this activity
+a. brief description
+b. more details
+
+2. put them on the wall
+3. read the postits and group the postits
+     to find similar threads
+     esp. to find duplicates
+
+4. discussion of anything anyone wants to advocate
+
+5. paths to solve it... as many as turn up
+a. approaches
+     systems to be created
+     data to be collected
+     
+b. human resources (experts, shareholders, etc.)
+
+6. Maybe more discussion?
+
+
+
+
+------------------------------------------------------------
+c. who does this affect
+
+Design Thinking, from IDF:
+https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular
+
+
+Define the problem
+  describe problem to be solved / service to be created / data to be collected
+  who will benefit from solving this problem?
+    (possibly multiple steakholders)
+  if relevant:
+    how is this done now?
+    what is wrong / can be improved
+
+
+empathize / define the problem
+  what do the imagined users need?
+
+
+rescuscitate old C4M ideas
+borrow ideas from other Code4America
+   Data for Democracy
+
+Land Trust
+
+Prompts:
+  living in Portland (or other community)
+  november elections
+
+  your neighborhood
+  your commute to work/school/etc.
+  recreation
+  family/home life
+  paying bills
+
+
+
+
