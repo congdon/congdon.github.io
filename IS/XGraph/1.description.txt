@@ -1,0 +1,55 @@
+I could put my notes on my own web pages?
+
+
+What is xGraph?
+
+The xGraph architecture enables the creation of distributed intelligent
+systems without a central controller. An xGraph system consists of a set
+of nodes (independent programs) Each node is autonomous, responsible for
+its own calculations and actions, but nodes communicate with other nodes
+so that the network can achieve a common goal. The connections between the
+nodes result in a graph structure; we refer to this structure as an
+executable graph framework. The graph can be organized hierarchically,
+heterogeneously, homogeneously, and/or fractally, as needed for a
+particular xGraph system.
+
+The distributed structure of xGraph systems enables edge computing
+applications, where nodes at the edge perform their tasks autonomously.
+xGraph also supports the creation of complex systems models, agent-based
+models, distributed analytics, and many other distributed intelligent
+systems. 
+
+------------------------------------------------------------
+
+Inconsistencies in language in things that I'm reading, and notes on
+options and choices:
+
+1. xGraph as the architecture
+   xGraph as a system (implemented in xGraph)
+
+I think xGraph is the software we're distributing == the architecture.
+I think when you implement something using xGraph, it's an xGraph system.
+
+Example:
+https://www.introspectivesystems.com/technology/
+What is xGraph?
+xGraph is an Executable Graph Framework where analytics processing takes
+place inside the graph data structure itself that evolves dynamically.
+
+I am fine with xGraph is an executable graph framework... which is kinda
+the same thing as saying it's an executable graph architecture;
+architecture/framework
+
+But then saying the processing takes place inside the graph data structure
+implies a specific instance of an xGraph system, not the architecture per
+se.
+
+Similarly on that page, "Implementing xGraph" is really "Implementing an
+xGraph System"
+
+
+2. The "node" is potentially confusing at first, since a node often refers
+to "a compute node" in a cluster computing environment.
+
+Relatedly, many people don't know that "a graph" is "a network", so that
+might be a stumbling point on a first read.

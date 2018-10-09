@@ -37,12 +37,12 @@ div.boxit{background:#FFF;
     margin-left:.5in; margin-right:.5in;
     padding:10px; 
 }
-div.line{background:#036;
+div.line{background:#063;
     margin-left:0in; margin-right:0in;
     padding:1px; 
     font-size:25%;
 }
-div.thinline{background:#067;
+div.thinline{background:#076;
     border-width:1px; border-style:solid; border-color:#000; 
     margin-left:0px; margin-right:0px;
     padding:3px; 
@@ -79,7 +79,7 @@ li {
 /* top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #036;
+  background-color: #063;
 }
 .topnav a {
   float: left;
@@ -90,11 +90,11 @@ li {
 }
 .topnav a:hover {
     /* background-color: #7195ba; */
-    background-color: #79B;
+    background-color: #693;
     color: #000;
 }
 .topnav a.active {
     /* background-color: #041d35; */
-    background-color: #131939;
+    background-color: #133919;
     color: #FFF;
 }
